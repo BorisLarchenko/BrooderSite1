@@ -35,5 +35,16 @@ main p.text-center {
     text-align: center;
     letter-spacing: 0.12em;
 }
-
+#p1{
+    animation-delay: 1s;
+}
+#p2{
+    animation-delay: 2s;
+}
+#p3{
+    animation-delay: 3s;
+}
+#p4{
+    animation-delay: 4s;
+}
 
