@@ -35,6 +35,10 @@ main p.text-center {
     text-align: center;
     letter-spacing: 0.12em;
 }
+#test{
+    animation-delay: 200ms;
+}
+
 #p1{
     animation-delay: 1s;
 }
@@ -47,4 +51,12 @@ main p.text-center {
 #p4{
     animation-delay: 4s;
 }
-
+ footer form input.btn {
+     font-size: 1.8rem;
+     font-family: "AlexanderRegular";
+     color: #7c69ff;
+     text-transform: uppercase;
+     line-height: 1.2;
+     text-align: center;
+     letter-spacing: 0.12em;
+ }
