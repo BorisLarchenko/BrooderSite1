@@ -37,7 +37,7 @@ main p.text-center {
 }
 
  footer form input.btn {
-     font-size: 1.8rem;
+     font-size: 18px;
      font-family: "AlexanderRegular";
      color: #7c69ff;
      text-transform: uppercase;
