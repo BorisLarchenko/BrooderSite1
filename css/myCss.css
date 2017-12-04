@@ -36,19 +36,24 @@ main p.text-center {
     letter-spacing: 0.12em;
 }
 #test{
+    -webkit-animation-delay: 2s;
     animation-delay: 200ms;
 }
 
 #p1{
+    -webkit-animation-delay: 2s;
     animation-delay: 1s;
 }
 #p2{
+    -webkit-animation-delay: 2s;
     animation-delay: 2s;
 }
 #p3{
+    -webkit-animation-delay: 2s;
     animation-delay: 3s;
 }
 #p4{
+    -webkit-animation-delay: 2s;
     animation-delay: 4s;
 }
  footer form input.btn {
