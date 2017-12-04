@@ -41,8 +41,10 @@ main p.text-center {
 }
 
 #p1{
-    -webkit-animation-delay: 2s;
-    animation-delay: 1s;
+    -moz-animation-delay:  3s; /* Firefox */
+    -webkit-animation-delay:  3s; /* Safari and Chrome */
+    -o-animation-delay:  3s; /* Opera */
+    animation-delay:  3s;
 }
 #p2{
     -webkit-animation-delay: 2s;
