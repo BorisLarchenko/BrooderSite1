@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html">
+    <meta charset="windows-1251">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Брудер1</title>
+    <link href="css/myCss.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h4 id="test" class="text-center bg-primary ">Параметри мікроклімату в Брудері</h4>
+            <br><br>
+
+
+            <p class="text-center bg-info"><a href="http://dachnaya-zhizn.ru/images/dacha/3812.jpg">Брудер</a> – це невеликий замкнутий простір призначений для вирощування курчат, від 1 до 60 днів, з контролем мікроклімату. Маленькі курчата переживають стрес, що призводить до підвищення їх захворюваності і в результаті зменшення їх кількості.</p>
+            <p class="text-center bg-info">Основне призначення брудера – це забезпечення максимального комфорту курчат шляхом контролю освітленості, температури та загазованості Сприятливі умови зменшують ризик захворюваності та смертності що підвищує виробничий та економічний показник.</p>
+            </div>
+        <br><br><br>
+    </header>
+    <main>
+        <div class="container bg-success">
+        <form action="/set.html">
+            <p class="text-center  ">Параметри стабілізації температури повітря</p>
+            <div class="form-group col-lg-4">
+                <label class="bg-success" for="tempZad">Значеня:</label>
+                <input type="value" name="tempZad" class="form-control" id="tempZad" placeholder="Введите температуру в брудере в градусах Цельсия">
+            </div>
+            <div class="form-group col-lg-4">
+                <label class="bg-success" for="tempDop">Допуск:</label>
+                <input type="value" class="form-control" id="tempDop" placeholder="Введите допуск по температуре">
+            </div>
+
+            <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+            <br><br>
+        </form>
+        </div>
+        <br><br>
+        <div class="container bg-info">
+            <form action="/set.html">
+                <p class="text-center  ">Параметри стабілізації загазованість повітря</p>
+                <div class="form-group col-lg-4">
+                    <label class="bg-success" for="PPMZad">Значеня:</label>
+                    <input type="value" name="tempZad" class="form-control" id="PPMZad" placeholder="Введите доп уровень загазованности">
+                </div>
+                <div class="form-group col-lg-4">
+                    <label class="bg-success" for="PPMDop">Допуск:</label>
+                    <input type="value" name="PPMDop" class="form-control" id="PPMDop" placeholder="Введите допуск по загазованности">
+                </div>
+
+                <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+                <br><br>
+            </form>
+
+        </div>
+        <br><br>
+        <div class="container bg-success">
+            <form action="/set.html">
+                <p class="text-center  ">Параметри стабілізації вологість повітря</p>
+                <div class="form-group col-lg-4">
+                    <label class="bg-success" for="humZad">Значеня:</label>
+                    <input type="value" name="humZad" class="form-control" id="humZad" placeholder="Введите уровень влажности">
+                </div>
+                <div class="form-group col-lg-4">
+                    <label class="bg-success" for="humDop">Допуск:</label>
+                    <input type="value" name="humDop" class="form-control" id="humDop" placeholder="Введите допуск по влажности">
+                </div>
+
+                <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+            </form>
+            <br>
+        </div>
+        <br><br>
+        <div class="container bg-info">
+            <form action="/set.html">
+                <p class="text-center  ">День від початку:</p>
+                <div class="form-group col-lg-6">
+                    <label class="bg-info" for="timeStart">Значеня:</label>
+                    <input type="value" name="timeStart" class="form-control" id="timeStart" placeholder="Введите номер дня">
+                </div>
+
+
+                <input type="submit" class="btn btn-primary col-lg-6" value="Задати">
+                <br><br>
+            </form>
+
+
+        </div>
+        <br><br>
+        <div class="container bg-success">
+            <form action="/set.html">
+                <p class="text-center  ">Налаштування довжини світлового дня та яскравості освітлення в різні дні:</p>
+                <div class="form-group col-lg-3">
+                    <label class="bg-success" for="day">Значеня:</label>
+                    <input type="value" name="day" class="form-control" id="day" placeholder="Введите температуру в брудере в градусах Цельсия">
+                </div>
+                <div class="form-group col-lg-3">
+                    <label class="bg-success" for="light">Допуск:</label>
+                    <input type="value" name="light" class="form-control" id="light" placeholder="Введите допуск по температуре">
+                </div>
+                <div class="form-group col-lg-3">
+                    <label class="bg-success" for="timeDay">Допуск:</label>
+                    <input type="value" name="timeDay" class="form-control" id="timeDay" placeholder="Введите допуск по температуре">
+                </div>
+
+                <input type="submit" class="btn btn-primary col-lg-3" value="Задати">
+                <br><br>
+            </form>
+        </div>
+        <br>
+
+    <div class="text-center">
+        <a href="index.html?save=1">
+        <input class="btn btn-info center-block" type="submit" value="Зберігти данні на flash"><br><br>
+        </a>
+        <br>
+    </div>
+        <form class="text-center" action="index.html">
+            <input class="btn btn-success center-block" type="submit" value="Параметри стану"><br><br>
+        </form>
+    </main>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
