@@ -11,25 +11,25 @@ body {
 
 
 h4.text-center {
-    font-size: 40px;
+    font-size: 2.8rem;
     color: rgba(136, 31, 45, 0.93);
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.06em;
 }
 input.btn {
-    font-size: 18px;
+    font-size: 2rem;
 
     color: #7c69ff;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.06em;
 }
 main p.text-center {
     border: 1px solid black;
-    font-size: 24px;
+    font-size: 2rem;
     color: #e6ff54;
     text-transform: uppercase;
     line-height: 1.2;
