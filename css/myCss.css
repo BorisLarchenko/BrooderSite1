@@ -1,47 +1,40 @@
 body {
-    background: url(http://dachnaya-zhizn.ru/images/dacha/3812.jpg) no-repeat center center fixed;
+    /*background: url(http://dachnaya-zhizn.ru/images/dacha/3812.jpg) no-repeat center center fixed;*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     font-family: Arial;
     font-size: 3.2vw;
+    background-color: #c5d4ff;
 }
 
-@font-face {
-    font-family: "AlexanderRegular";
-    src: url("../fonts/AlexanderRegular/AlexanderRegular.eot");
-    src: url("../fonts/AlexanderRegular/AlexanderRegular.eot?#iefix")format("embedded-opentype"),
-    url("../fonts/AlexanderRegular/AlexanderRegular.woff") format("woff"),
-    url("../fonts/AlexanderRegular/AlexanderRegular.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
-}
+
 h4.text-center {
     font-size: 40px;
-    font-family: "AlexanderRegular";
     color: rgba(136, 31, 45, 0.93);
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.12em;
 }
-main p.text-center {
-    font-size: 24px;
-    font-family: "AlexanderRegular";
+input.btn {
+    font-size: 18px;
+
     color: #7c69ff;
     text-transform: uppercase;
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.12em;
 }
+main p.text-center {
+    border: 1px solid black;
+    font-size: 24px;
+    color: #e6ff54;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.12em;
+}
 
- footer form input.btn {
-     font-size: 18px;
-     font-family: "AlexanderRegular";
-     color: #7c69ff;
-     text-transform: uppercase;
-     line-height: 1.2;
-     text-align: center;
-     letter-spacing: 0.12em;
- }
+

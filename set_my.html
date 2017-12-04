@@ -8,7 +8,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Брудер1</title>
     <link href="css/myCss.css" rel="stylesheet">
+
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -30,91 +33,91 @@
         <br><br><br>
     </header>
     <main>
-        <div class="container bg-success">
+        <div id="c1" class="container bg-success animated lightSpeedIn">
         <form action="/set.html">
             <p class="text-center  ">Параметри стабілізації температури повітря</p>
-            <div class="form-group col-lg-4">
+            <div class="form-group ">
                 <label class="bg-success" for="tempZad">Значеня:</label>
                 <input type="value" name="tempZad" class="form-control" id="tempZad" placeholder="Введите температуру в брудере в градусах Цельсия">
             </div>
-            <div class="form-group col-lg-4">
+            <div class="form-group ">
                 <label class="bg-success" for="tempDop">Допуск:</label>
                 <input type="value" class="form-control" id="tempDop" placeholder="Введите допуск по температуре">
             </div>
 
-            <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+            <input type="submit" class="btn btn-primary " value="Задати">
             <br><br>
         </form>
         </div>
         <br><br>
-        <div class="container bg-info">
+        <div id="c2" class="container bg-info animated rotateInDownLeft">
             <form action="/set.html">
                 <p class="text-center  ">Параметри стабілізації загазованість повітря</p>
-                <div class="form-group col-lg-4">
+                <div class="form-group">
                     <label class="bg-success" for="PPMZad">Значеня:</label>
                     <input type="value" name="tempZad" class="form-control" id="PPMZad" placeholder="Введите доп уровень загазованности">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="form-group ">
                     <label class="bg-success" for="PPMDop">Допуск:</label>
                     <input type="value" name="PPMDop" class="form-control" id="PPMDop" placeholder="Введите допуск по загазованности">
                 </div>
 
-                <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+                <input type="submit" class="btn btn-primary " value="Задати">
                 <br><br>
             </form>
 
         </div>
         <br><br>
-        <div class="container bg-success">
+        <div id="c3" class="container bg-success  animated rotateInDownRight">
             <form action="/set.html">
                 <p class="text-center  ">Параметри стабілізації вологість повітря</p>
-                <div class="form-group col-lg-4">
+                <div class="form-group ">
                     <label class="bg-success" for="humZad">Значеня:</label>
                     <input type="value" name="humZad" class="form-control" id="humZad" placeholder="Введите уровень влажности">
                 </div>
-                <div class="form-group col-lg-4">
+                <div class="form-group ">
                     <label class="bg-success" for="humDop">Допуск:</label>
                     <input type="value" name="humDop" class="form-control" id="humDop" placeholder="Введите допуск по влажности">
                 </div>
 
-                <input type="submit" class="btn btn-primary col-lg-4" value="Задати">
+                <input type="submit" class="btn btn-primary " value="Задати">
             </form>
             <br>
         </div>
         <br><br>
-        <div class="container bg-info">
+        <div id="c4" class="container bg-info wow fadeInUp" data-wow-delay="0.5s">
             <form action="/set.html">
                 <p class="text-center  ">День від початку:</p>
-                <div class="form-group col-lg-6">
+                <div class="form-group ">
                     <label class="bg-info" for="timeStart">Значеня:</label>
                     <input type="value" name="timeStart" class="form-control" id="timeStart" placeholder="Введите номер дня">
                 </div>
 
 
-                <input type="submit" class="btn btn-primary col-lg-6" value="Задати">
+                <input type="submit" class="btn btn-primary " value="Задати">
                 <br><br>
             </form>
 
 
         </div>
         <br><br>
-        <div class="container bg-success">
+        <div  class="container bg-success wow fadeInUp " data-wow-delay="0.6s">
             <form action="/set.html">
                 <p class="text-center  ">Налаштування довжини світлового дня та яскравості освітлення в різні дні:</p>
-                <div class="form-group col-lg-3">
+                <div class="form-group ">
                     <label class="bg-success" for="day">Значеня:</label>
                     <input type="value" name="day" class="form-control" id="day" placeholder="Введите температуру в брудере в градусах Цельсия">
                 </div>
-                <div class="form-group col-lg-3">
+                <div class="form-group ">
                     <label class="bg-success" for="light">Допуск:</label>
                     <input type="value" name="light" class="form-control" id="light" placeholder="Введите допуск по температуре">
                 </div>
-                <div class="form-group col-lg-3">
+                <div class="form-group ">
                     <label class="bg-success" for="timeDay">Допуск:</label>
                     <input type="value" name="timeDay" class="form-control" id="timeDay" placeholder="Введите допуск по температуре">
                 </div>
 
-                <input type="submit" class="btn btn-primary col-lg-3" value="Задати">
+                <input type="submit" class="btn btn-primary " value="Задати">
                 <br><br>
             </form>
         </div>
@@ -135,5 +138,24 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="application/javascript">
+        $(function () {
+            $('#c1').hide();
+            $('#c1').delay(1000).show(0);
+            $('#c1').addClass('animated bounceInRight');
+            $('#c2').hide();
+            $('#c2').delay(2000).show(0);
+            $('#c2').addClass('animated bounceInRight');
+            $('#c3').hide();
+            $('#c3').delay(3000).show(0);
+            $('#c3').addClass('animated zoomInDown ');
+
+        });
+    </script>
+    <script type="application/javascript">
+        new WOW().init();
+
+    </script>
 </body>
 </html>
