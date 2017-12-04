@@ -35,29 +35,7 @@ main p.text-center {
     text-align: center;
     letter-spacing: 0.12em;
 }
-#test{
-    -webkit-animation-delay: 2s;
-    animation-delay: 200ms;
-}
 
-#p1{
-    -moz-animation-delay:  3s; /* Firefox */
-    -webkit-animation-delay:  3s; /* Safari and Chrome */
-    -o-animation-delay:  3s; /* Opera */
-    animation-delay:  3s;
-}
-#p2{
-    -webkit-animation-delay: 2s;
-    animation-delay: 2s;
-}
-#p3{
-    -webkit-animation-delay: 2s;
-    animation-delay: 3s;
-}
-#p4{
-    -webkit-animation-delay: 2s;
-    animation-delay: 4s;
-}
  footer form input.btn {
      font-size: 1.8rem;
      font-family: "AlexanderRegular";

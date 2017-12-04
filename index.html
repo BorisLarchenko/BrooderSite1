@@ -32,10 +32,10 @@
 
         <div class="container-fluid">
 
-            <p id="p1" class="animated bounceInRight text-center bg-success"  >Температура воздуха: 25.41 C</p>
-            <p id="p2" class="animated bounceInRight text-center bg-info" >Влажность воздуха: 39.4 %</p>
-            <p id="p3"  class="animated zoomInDown text-center bg-success" >Загазованость воздуха: 17.18 ppm</p>
-            <p id="p4" class="animated zoomInUp text-center bg-info">Температура нагревателя: 19.93 C</p>
+            <p id="p1" class=" text-center bg-success"   >Температура воздуха: 25.41 C</p>
+            <p id="p2" class=" text-center bg-info" >Влажность воздуха: 39.4 %</p>
+            <p id="p3"  class="text-center bg-success" >Загазованость воздуха: 17.18 ppm</p>
+            <p id="p4" class=" text-center bg-info">Температура нагревателя: 19.93 C</p>
 
         </div>
         <br><br>
@@ -55,6 +55,21 @@
     <!-- MDB core JavaScript -->
     <script type="text/javascript" src="js/mdb.min.js"></script>
     <script type="application/javascript">
+        $(function () {
+            $('#p1').hide();
+            $('#p1').delay(1000).show(0);
+            $('#p1').addClass('animated bounceInRight');
+            $('#p2').hide();
+            $('#p2').delay(2000).show(0);
+            $('#p2').addClass('animated bounceInRight');
+            $('#p3').hide();
+            $('#p3').delay(3000).show(0);
+            $('#p3').addClass('animated zoomInDown ');
+            $('#p4').hide();
+            $('#p4').delay(4000).show(0);
+            $('#p4').addClass('animated zoomInUp');
+
+       });
 
 
     </script>
