@@ -35,6 +35,8 @@ main p.text-center {
     line-height: 1.2;
     text-align: center;
     letter-spacing: 0.12em;
+    }
+.form-group .form-control{
+    font-size: 2rem;
 }
-
 
